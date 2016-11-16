@@ -3336,6 +3336,13 @@
 			z-index: 10000;
 		}
 
+		#nav.alt::before {
+			content: "Shahriver Hossain";
+			float: left;
+			color: #1B5661;
+			font-weight: 400;
+		}
+
 			#nav.alt ul li {
 				margin: 0 0.175em;
 			}
