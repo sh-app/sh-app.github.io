@@ -2333,6 +2333,26 @@
 				text-align: center;
 			}
 
+			.icon.portfolio {
+				border: solid 1px;
+				display: inline-block;
+				border-radius: 2%;
+				padding: 0.2em;
+				margin: 0 0 2em 0;
+				cursor: default;
+			}
+
+				.icon.portfolio:before {
+					display: inline-block;
+					font-size: 6.25rem;
+					width: 2.25em;
+					height: 2.25em;
+					line-height: 2.2em;
+					border-radius: 1%;
+					border: solid 1px;
+					text-align: center;
+				}
+
 		.icon.alt {
 			display: inline-block;
 			border: solid 1px;
@@ -3156,7 +3176,7 @@
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 6em 4em 1em 4em ;
 				}
 
 		}
@@ -3168,7 +3188,7 @@
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 5em 3em 1em 3em ;
 				}
 
 		}
@@ -3717,7 +3737,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 3em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
@@ -3737,7 +3757,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 4em 4em 2em 4em ;
+				padding: 3em 4em 2em 4em ;
 			}
 
 		}
@@ -3745,7 +3765,7 @@
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 2em 3em 2em 3em ;
 				display: block;
 				margin: 0 0 3em 0;
 				width: 100%;
@@ -3766,7 +3786,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 2.5em 2em 1em 2em ;
 			}
 
 		}
@@ -3774,7 +3794,7 @@
 		@media screen and (max-width: 480px) {
 
 			#footer {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 2.5em 1.5em 1em 1.5em ;
 			}
 
 		}
